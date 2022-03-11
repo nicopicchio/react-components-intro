@@ -1,13 +1,16 @@
-import Img from './Img';
-import Input from './Input';
-import Buttons from './Buttons';
-
 function Main() {
 	return (
 		<main>
-			<Img />
-			<Input />
-			<Buttons />
+			<img
+				className='logo'
+				src='https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png'
+				alt='Google logo'
+			/>
+			<input className='search-bar' type='search' />
+			<div className='buttons'>
+				<button>Google Search</button>
+				<button>Feeling Lucky</button>
+			</div>
 		</main>
 	);
 }
